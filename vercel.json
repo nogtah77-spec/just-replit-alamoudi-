@@ -1,0 +1,13 @@
+{
+  "outputDirectory": "artifacts/alamoudi/dist",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!assets/|sw\\.js|favicon|icon-|manifest|logo|images/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
