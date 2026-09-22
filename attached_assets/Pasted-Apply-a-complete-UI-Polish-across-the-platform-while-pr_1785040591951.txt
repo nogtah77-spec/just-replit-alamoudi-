@@ -1,0 +1,82 @@
+Apply a complete UI Polish across the platform while preserving the existing layout and functionality.
+
+Follow a premium design direction inspired by Apple, Airbnb, Stripe, and Linear.
+
+The goal is a clean, elegant, minimal interface where quality comes from spacing, typography, alignment, borders, and proportions, not heavy gradients or oversized rounded corners.
+
+Use the attached Brand Color Guide as the official color reference.
+
+Important changes:
+
+• Replace the previous Sand Gold accent completely with the new Premium Burgundy accent from the attached guide.
+
+• Light Mode:
+- Pure white background (#FFFFFF).
+- White cards.
+- Very light gray borders.
+- Remove all beige page backgrounds.
+
+• Dark Mode:
+- Keep the dark navy background.
+- Cards only slightly lighter than the page.
+- Preserve high readability.
+
+UI Improvements:
+
+1. Reduce all border radius by about 50%.
+Cards, buttons, inputs and dropdowns should feel modern instead of overly rounded.
+
+2. Transform the entire filter section into one elegant Filter Card.
+Everything should live inside one clean container with generous spacing and consistent alignment.
+
+3. Improve the Search Box.
+Make it clearly recognizable as an input using a visible border, subtle shadow, larger search icon and better placeholder styling.
+
+4. Improve all Dropdowns.
+Before opening they should clearly look clickable.
+After opening they should appear as floating premium menus with:
+- clean border
+- soft shadow
+- consistent padding
+- hover state
+- selected state
+- smooth animation
+
+5. Improve all Chips (Residential, Commercial, Medical, Administrative, etc.).
+Currently they look like plain text.
+Make them feel like real interactive buttons using:
+- border
+- hover
+- active state
+- pointer cursor
+- subtle press animation
+
+6. Improve Sale / Rent / Furnished buttons with proper interactive states.
+
+7. Every button should have:
+Normal
+Hover
+Pressed
+Active
+Disabled
+Smooth 180ms transitions.
+
+8. Reduce shadows everywhere.
+Depend more on spacing and borders than shadows.
+
+9. Increase whitespace.
+Give every component more breathing room.
+
+10. Typography:
+Use Cairo.
+Headings = Bold.
+Buttons = SemiBold.
+Labels = Medium.
+Secondary text = Regular.
+
+11. Perfect alignment.
+Every icon and label should be visually centered inside its component.
+
+12. Keep visual consistency across desktop and mobile.
+
+The final interface should feel luxurious, calm, modern and highly polished without becoming flashy.

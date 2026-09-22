@@ -1,0 +1,270 @@
+FINAL PLATFORM COMPLETION PHASE
+
+THIS IS THE FINAL AND MOST IMPORTANT TASK.
+
+Treat this as a production release.
+
+The platform must be delivered fully polished, fully functional, fully tested, and production-ready.
+
+DO NOT leave any unfinished work.
+
+DO NOT assume anything works without testing it.
+
+═══════════════════════════════════════
+
+1. COMPLETE PLATFORM AUDIT
+    ═══════════════════════════════════════
+
+Perform a complete audit of the entire platform.
+
+Review every page, every component, every form, every modal, every dropdown, every table and every interaction.
+
+Fix ALL:
+
+* Broken buttons.
+* Inactive buttons.
+* Alignment issues.
+* UI inconsistencies.
+* Typography inconsistencies.
+* Spacing issues.
+* Responsiveness issues.
+* Navigation issues.
+* State management issues.
+* Visual defects.
+* Any unfinished functionality.
+
+Nothing should remain partially implemented.
+
+═══════════════════════════════════════
+2. COMPANY INFORMATION SECTION
+═══════════════════════════════════════
+
+Create a premium “About Us” section.
+
+Title:
+
+من نحن
+
+Content:
+
+العمودي للتسويق العقاري شركة متخصصة في التسويق والاستثمار العقاري، تأسست عام 2018، وتمتلك خبرة واسعة في سوق العقارات المصري والسعودي. نسعى لتقديم أفضل الفرص العقارية والاستثمارية لعملائنا من خلال خدمات احترافية وحلول مبتكرة تلبي مختلف الاحتياجات السكنية والاستثمارية.
+
+Requirements:
+
+* Premium design.
+* Elegant layout.
+* Luxury appearance.
+* Fully responsive.
+
+Add this section on the homepage.
+
+Also create a dedicated page:
+
+من نحن
+
+Add it to the header navigation.
+
+═══════════════════════════════════════
+3. ADD YOUR PROPERTY FEATURE
+═══════════════════════════════════════
+
+Create a complete feature:
+
+أضف عقارك لدينا
+
+Add a prominent button on homepage.
+
+When clicked, open a dedicated page or modal.
+
+Fields:
+
+Owner Information:
+
+* Full Name
+* Phone Number
+* WhatsApp Number
+* Email (optional)
+
+Property Information:
+
+* Region
+* Property Type
+* Listing Type
+* Area
+* Price
+* Property Description
+
+Additional:
+
+* Google Maps URL (optional)
+* Additional Notes
+
+Image Upload:
+
+Allow multiple image uploads.
+
+Requirements:
+
+* Premium UX.
+* Validation.
+* Success message after submission.
+
+Success message:
+
+تم استلام طلبكم بنجاح وسيتم التواصل معكم في أقرب وقت.
+
+═══════════════════════════════════════
+4. PROPERTY CARD SIZE SWITCHER
+═══════════════════════════════════════
+
+Implement a complete card size switcher.
+
+Allow users to switch between:
+
+* Large Cards
+* Medium Cards
+* Compact Cards
+
+Requirements:
+
+* Instant switching without page reload.
+* Save user preference.
+* Fully responsive.
+* Premium UX.
+
+═══════════════════════════════════════
+5. PROPERTY CARD ENHANCEMENTS
+═══════════════════════════════════════
+
+Add:
+
+* Share Property button.
+* Direct WhatsApp button.
+* Direct Call button.
+* Copy Property Code button.
+* Image count badge.
+* Status badges:
+    * Featured
+    * New
+    * Furnished
+    * Reserved
+
+═══════════════════════════════════════
+6. SETTINGS PAGE
+═══════════════════════════════════════
+
+The Settings page must work perfectly.
+
+Saving settings must:
+
+* Actually save.
+* Show success message.
+* Show failure message if needed.
+* Update UI immediately.
+
+Settings include:
+
+* Company name
+* Company description
+* Phones
+* WhatsApp
+* Email
+* TikTok
+* Social links
+* Google Maps
+
+═══════════════════════════════════════
+7. HERO IMAGE MANAGEMENT
+═══════════════════════════════════════
+
+Add Hero image management.
+
+Admin must be able to:
+
+* Upload Hero image.
+* Replace Hero image.
+* Remove Hero image.
+
+The homepage Hero must initially use a premium luxury real estate image.
+
+Hero image must be fully manageable from Admin Settings.
+
+═══════════════════════════════════════
+8. CONTACT INFORMATION DISPLAY
+═══════════════════════════════════════
+
+Display company information professionally in footer.
+
+Display:
+
+* Phones
+* WhatsApp
+* Email
+* TikTok
+* Google Maps
+
+Add elegant icons.
+
+Add quick actions in header:
+
+* WhatsApp icon.
+* Location icon.
+
+═══════════════════════════════════════
+9. RESPONSIVENESS
+═══════════════════════════════════════
+
+Verify the entire platform on:
+
+* Desktop
+* Tablet
+* Mobile
+
+Requirements:
+
+* No overflow.
+* No broken layouts.
+* No overlapping elements.
+* No misplaced elements.
+
+═══════════════════════════════════════
+10. MANDATORY MANUAL TESTING
+═══════════════════════════════════════
+
+This requirement is mandatory.
+
+You MUST manually test:
+
+* Every page.
+* Every button.
+* Every form.
+* Every dropdown.
+* Every modal.
+* Every table.
+* Every navigation item.
+* Every interactive element.
+
+You must physically interact with every element.
+
+DO NOT assume anything works.
+
+Any issue discovered during testing must be fixed immediately.
+
+═══════════════════════════════════════
+11. FINAL QA CHECKLIST
+═══════════════════════════════════════
+
+Before completing the task, provide a checklist confirming:
+
+✓ Every page tested.
+✓ Every button tested.
+✓ Every form tested.
+✓ Every modal tested.
+✓ Every dropdown tested.
+✓ Mobile tested.
+✓ Tablet tested.
+✓ Desktop tested.
+✓ No broken UI remains.
+✓ Platform is production-ready.
+
+DO NOT FINISH UNTIL THE PLATFORM IS FULLY TESTED, FULLY FUNCTIONAL, POLISHED, LUXURIOUS, AND PRODUCTION READY.

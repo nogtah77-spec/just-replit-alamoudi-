@@ -1,0 +1,283 @@
+FINAL FRONTEND POLISHING AND QA PHASE
+
+This is the final frontend phase before backend integration.
+
+IMPORTANT:
+
+* DO NOT start backend work.
+* DO NOT connect Supabase.
+* DO NOT modify database architecture.
+
+Only finalize the entire frontend, UI, UX and admin experience.
+
+═══════════════════════════════════════
+SETTINGS PAGE
+═══════════════════════════════════════
+
+The Settings page must work completely.
+
+Requirements:
+
+* Saving settings must work.
+* Show success toast/message after saving.
+* Show error message if saving fails.
+* Persist settings in frontend state.
+
+Settings include:
+
+* Company name
+* Company description
+* Phone numbers
+* WhatsApp number
+* Email
+* TikTok URL
+* Facebook URL
+* Instagram URL
+* Google Maps URL
+
+When clicking Save Settings, the user must receive immediate visual feedback.
+
+═══════════════════════════════════════
+CONTACT INFORMATION
+═══════════════════════════════════════
+
+All saved contact information must automatically appear in the website footer.
+
+Display:
+
+* Phone numbers
+* WhatsApp
+* Email
+* TikTok
+* Google Maps location
+
+Use elegant premium icons.
+
+═══════════════════════════════════════
+HEADER QUICK ACTIONS
+═══════════════════════════════════════
+
+Add elegant quick action icons inside the header:
+
+* WhatsApp icon
+* Location icon
+
+Requirements:
+
+* Professional appearance.
+* Balanced sizing.
+* Responsive.
+* Luxury style.
+
+The location icon should open Google Maps.
+
+The WhatsApp icon should open WhatsApp.
+
+═══════════════════════════════════════
+HERO SECTION
+═══════════════════════════════════════
+
+The Hero section currently needs a premium background image.
+
+Requirements:
+
+* Add a premium luxury real estate image as a temporary placeholder.
+* Use a high quality image.
+* Add a dark overlay for readability.
+* The image must feel luxurious and premium.
+* Fully responsive on all devices.
+
+IMPORTANT:
+
+Create a dedicated Hero Image setting inside Admin Settings.
+
+The administrator must be able to:
+
+* Upload Hero image.
+* Replace Hero image.
+* Remove Hero image.
+
+Future Hero images must be controlled entirely from Admin Settings.
+
+═══════════════════════════════════════
+BRANDING
+═══════════════════════════════════════
+
+Remove the uploaded logo completely.
+
+Replace it everywhere with:
+
+العمودي للتسويق العقاري
+
+Requirements:
+
+* Elegant Arabic typography.
+* Premium appearance.
+* Perfect spacing.
+* Responsive.
+
+Header desktop layout:
+
+Right:
+العمودي للتسويق العقاري
+
+Center:
+الرئيسية | المفضلة | المقارنة
+
+Left:
+تسجيل الدخول | لوحة التحكم
+
+Footer:
+
+Remove logo completely.
+
+Display:
+
+العمودي للتسويق العقاري
+
+using premium typography.
+
+═══════════════════════════════════════
+HERO CONTENT
+═══════════════════════════════════════
+
+Hero title:
+
+اكتشف الفخامة في كل تفاصيل منزلك القادم
+
+Requirements:
+
+* Perfect centering.
+* Perfect visual balance.
+* Equal spacing.
+* Reduce oversized typography.
+
+Subtitle:
+
+نقدم أفضل الفرص العقارية والاستثمارية في القاهرة الجديدة
+
+must be centered and visually balanced.
+
+═══════════════════════════════════════
+SEARCH EXPERIENCE
+═══════════════════════════════════════
+
+Homepage filters:
+
+Row 1:
+
+بيع | إيجار | شقق مفروشة
+
+Row 2:
+
+سكني | إداري | طبي | تجاري
+
+Requirements:
+
+* Perfect centering.
+* Equal spacing.
+* Premium appearance.
+* Responsive behavior.
+
+Search box must be centered.
+
+Dropdowns must display all available values.
+
+═══════════════════════════════════════
+TYPOGRAPHY SYSTEM
+═══════════════════════════════════════
+
+Create a complete typography system.
+
+Requirements:
+
+* Consistent font sizes.
+* Consistent line heights.
+* Consistent font weights.
+* Proper visual hierarchy.
+
+Review every page and standardize typography.
+
+═══════════════════════════════════════
+PROPERTY CARDS
+═══════════════════════════════════════
+
+All property cards must:
+
+* Be perfectly centered.
+* Use professional responsive grids.
+* Maintain alignment regardless of item count.
+* Have equal heights.
+* Have equal spacing.
+
+Apply to all pages.
+
+═══════════════════════════════════════
+GLOBAL LAYOUT
+═══════════════════════════════════════
+
+Use one consistent max-width container across the entire platform.
+
+Requirements:
+
+* Equal margins.
+* No misaligned components.
+* No overflow.
+
+═══════════════════════════════════════
+RESPONSIVENESS
+═══════════════════════════════════════
+
+Ensure perfect behavior on:
+
+* Mobile
+* Tablet
+* Desktop
+
+Requirements:
+
+* No broken layouts.
+* No overlapping.
+* No horizontal scrolling.
+* No overflow.
+
+═══════════════════════════════════════
+MANDATORY TESTING REQUIREMENT
+═══════════════════════════════════════
+
+You must manually test:
+
+* Every page.
+* Every button.
+* Every modal.
+* Every form.
+* Every dropdown.
+* Every navigation link.
+* Every interactive element.
+
+Do not assume anything works.
+
+Verify functionality by actually interacting with the UI.
+
+Any broken or inactive element must be fixed.
+
+Provide a final checklist summarizing what was tested and confirmed working.
+
+The task is NOT complete until every visible element has been tested and verified.
+
+═══════════════════════════════════════
+FINAL QUALITY ASSURANCE
+═══════════════════════════════════════
+
+Perform a complete QA audit.
+
+Fix:
+
+* Alignment issues.
+* Typography issues.
+* Spacing issues.
+* Visual inconsistencies.
+* Broken buttons.
+* UX defects.
+
+The final result must feel premium, luxurious and production-ready.

@@ -1,0 +1,207 @@
+IMPORTANT: Read everything carefully before doing anything.
+
+STRICT RULES:
+
+1. DO NOT connect Supabase.
+2. DO NOT create database schema.
+3. DO NOT modify backend.
+4. DO NOT add fake data.
+5. DO NOT add placeholders with invented statistics.
+6. DO NOT hardcode Saudi Arabia content.
+7. DO NOT start backend work without my explicit approval.
+
+Current task = UI/UX polishing ONLY.
+
+=================================================
+OFFICIAL BRAND ASSETS
+=================================================
+
+I am attaching the official company logo and brand colors.
+
+The attached logo is the official company identity.
+
+STRICT LOGO RULES:
+
+- Use this exact logo everywhere across the platform.
+- Do NOT redesign, redraw, recreate, or modify the logo.
+- Do NOT change logo colors.
+- Do NOT distort, stretch, rotate, or crop the logo incorrectly.
+- If the logo background needs removal, remove it professionally while preserving maximum quality.
+- Use the logo in high quality only.
+- Respect proper spacing and visual hierarchy.
+- Use the logo professionally in all appropriate locations.
+
+The logo must appear in:
+
+- Header/Navbar
+- Footer
+- Login page
+- Dashboard sidebar
+- Browser favicon
+- Mobile menu
+- Loading screen (optional)
+
+Extract the visual identity colors from the attached logo and use them throughout the platform while keeping a premium luxury appearance.
+
+The entire UI must feel like a premium real estate company brand.
+
+=================================================
+GENERAL RULES
+=================================================
+
+A) Replace ALL Saudi Arabia references with Egypt.
+
+Remove:
+Saudi Arabia
+Gulf
+Riyadh
+Jeddah
+Dammam
+Khobar
+
+Use Egypt context only.
+
+Main hero subtitle:
+
+"نقدم أفضل الفرص العقارية والاستثمارية في القاهرة الجديدة."
+
+=================================================
+
+B) Currency everywhere:
+
+Change all currencies to:
+
+جنيه مصري (EGP)
+
+=================================================
+
+C) Remove permanently:
+
+- Happy clients counter
+- Years of experience counter
+- Awards counter
+- Sold properties counter
+
+Keep ONLY:
+
+"إجمالي العقارات المتاحة"
+
+No fake numbers.
+
+=================================================
+
+D) Property categories:
+
+البيع
+الإيجار
+شقق مفروشة
+إداري
+طبي
+تجاري
+
+Property types:
+
+شقة
+دوبلكس
+بنتهاوس
+فيلا
+تاون هاوس
+توين هاوس
+استوديو
+محل
+مكتب إداري
+عيادة
+مركز طبي
+مطعم
+كافيه
+أرض
+
+=================================================
+
+E) Default regions:
+
+التجمع الخامس
+بيت الوطن
+النرجس
+الأندلس
+غرب الجامعات
+جنوب الأكاديمية
+المستثمرين
+الشروق
+الرحاب
+مدينتي
+العاصمة الإدارية
+
+=================================================
+
+F) Home page sections:
+
+1. Hero section
+2. Advanced search section
+3. Featured properties
+4. Latest properties
+5. Why choose us
+6. Contact CTA
+7. Footer
+
+Do NOT add any fake statistics section.
+
+=================================================
+
+G) Settings page must support editing:
+
+- Company name
+- Company description
+- Logo
+- Phone numbers
+- WhatsApp
+- TikTok
+- Facebook
+- Instagram
+- Google Maps URL
+- Email
+
+=================================================
+
+H) Light Mode redesign (VERY IMPORTANT)
+
+Current Light Mode feels basic.
+
+Completely redesign it to look:
+
+- Premium
+- Luxury
+- Modern
+- Elegant
+- Soft shadows
+- Glassmorphism
+- Smooth gradients
+- Warm luxury feeling
+- Same quality level as Dark Mode
+
+Light Mode must impress users.
+
+=================================================
+
+I) Dashboard improvements
+
+- Premium admin dashboard design.
+- Better cards and spacing.
+- Modern analytics placeholders without fake numbers.
+- Elegant tables.
+- Mobile responsive layout.
+
+=================================================
+
+J) IMPORTANT
+
+Ask for approval BEFORE:
+
+- Backend work
+- Supabase connection
+- Database changes
+- Authentication implementation
+
+UI/UX ONLY.
+
+After finishing, present the updated UI and wait for approval.
