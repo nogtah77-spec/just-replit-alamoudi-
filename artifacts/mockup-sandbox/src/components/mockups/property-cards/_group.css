@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap");
+
+.property-card-preview {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+  min-height: 100vh;
+  background: #eef1f3;
+  color: #10202d;
+}
+
+.property-card-preview *,
+.property-card-preview *::before,
+.property-card-preview *::after {
+  box-sizing: border-box;
+}
+
+.property-card-preview button {
+  font: inherit;
+}
