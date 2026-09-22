@@ -4,9 +4,6 @@ import * as schema from "./schema";
 
 const { Pool } = pg;
 
-// Replit development uses its managed DATABASE_URL. Vercel production uses
-// the project's Supabase connection when the Supabase component secrets are
-// available; otherwise it falls back to an explicitly supplied DATABASE_URL.
 function buildSupabaseUrl(): string | undefined {
   const pw = process.env.SUPABASE_DB_PASSWORD;
   const supaUrl = process.env.SUPABASE_URL;
@@ -16,18 +13,25 @@ function buildSupabaseUrl(): string | undefined {
   if (!ref) return undefined;
 
   const encodedPw = encodeURIComponent(pw);
-  return `postgresql://postgres.${ref}:${encodedPw}@aws-0-eu-west-1.pooler.supabase.com:6543/postgres`;
+  const suppliedUrl = process.env.SUPABASE_DATABASE_URL;
+  if (suppliedUrl) {
+    try {
+      const parsed = new URL(suppliedUrl);
+      parsed.username = `postgres.${ref}`;
+      parsed.password = pw;
+      parsed.pathname = parsed.pathname || "/postgres";
+      return parsed.toString();
+    } catch {
+      // Fall through to the direct Supabase host.
+    }
+  }
+  return `postgresql://postgres:${encodedPw}@db.${ref}.supabase.co:5432/postgres`;
 }
 
 const connectionString =
-  process.env.VERCEL === "1" || process.env.VERCEL_ENV
-    ? process.env.SUPABASE_PRODUCTION_DB_URL ??
-      buildSupabaseUrl() ??
-      process.env.SUPABASE_DATABASE_URL ??
-      process.env.DATABASE_URL
-    : process.env.DATABASE_URL ??
-      process.env.SUPABASE_DATABASE_URL ??
-      buildSupabaseUrl();
+  buildSupabaseUrl() ??
+  process.env.SUPABASE_DATABASE_URL ??
+  process.env.DATABASE_URL;
 
 if (!connectionString) {
   console.error(

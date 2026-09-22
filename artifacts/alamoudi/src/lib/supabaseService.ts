@@ -500,7 +500,7 @@ export const supabaseService = {
   async fetchRegions(): Promise<Region[] | null> {
     if (!supabase) return null;
     try {
-      const { data, error } = await supabase.from("regions").select("*").order("created_at", { ascending: true });
+      const { data, error } = await supabase.from("regions").select("*").order("id", { ascending: true });
       if (error) throw error;
       if (!data || data.length === 0) return null;
       return data.map((r: any) => ({
@@ -551,7 +551,7 @@ export const supabaseService = {
   async fetchPropertyTypes(): Promise<PropertyType[] | null> {
     if (!supabase) return null;
     try {
-      const { data, error } = await supabase.from("property_types").select("*").order("created_at", { ascending: true });
+      const { data, error } = await supabase.from("property_types").select("*").order("id", { ascending: true });
       if (error) throw error;
       if (!data || data.length === 0) return null;
       return data.map((t: any) => ({

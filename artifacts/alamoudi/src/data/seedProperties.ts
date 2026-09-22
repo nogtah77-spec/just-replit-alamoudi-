@@ -2,7 +2,7 @@
 // Provides instantaneous (0ms) first-frame rendering across all devices before network sync.
 import type { Property } from "@/context/DataContext";
 
-export const SEED_PROPERTIES: Property[] = [
+const RAW_SEED_PROPERTIES: Property[] = [
   {
     "id": "mu9pu58hqdhxy8kkhn",
     "code": "F1",
@@ -304,7 +304,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "broker",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912932/alamoudi_properties/shorouk/F31/hp8fulvvmeibobgabkuj.webp"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -346,7 +345,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912927/alamoudi_properties/shorouk/F32/amxf3rrkkxp6vsfcpi6w.webp"
     ],
     "videoUrl": "https://vt.tiktok.com/ZSquMo3wn/",
     "externalUrl": "",
@@ -388,14 +386,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904377/alamoudi_properties/wasal/F33/hsi7owmdnhzvizunmtvj.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904378/alamoudi_properties/wasal/F33/s3dur8t50xk4dvlymdkj.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904378/alamoudi_properties/wasal/F33/wdmumjez5obhb4rc7ziz.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904380/alamoudi_properties/wasal/F33/r2fjdqlxjehsu1jybap3.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904381/alamoudi_properties/wasal/F33/l2afzxdt3mpoadupg26w.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904382/alamoudi_properties/wasal/F33/xwfuna2xrc2rv24vnioh.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904383/alamoudi_properties/wasal/F33/vd2uvowl3ao8pfidsm1j.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789904384/alamoudi_properties/wasal/F33/bc0jjpthbqu19dxjbarn.jpg"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -1277,7 +1267,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "broker",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912929/alamoudi_properties/shorouk/R40/abmrmosxfk8pm5qxsfsy.webp"
     ],
     "videoUrl": "https://t.me/alamoudirealestate/99",
     "externalUrl": "",
@@ -2479,7 +2468,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": true,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912933/alamoudi_properties/madinaty/S66/barjn58lsujul3mzzssf.webp"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -2561,7 +2549,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912934/alamoudi_properties/madinaty/S81/eygwvif3htu3ohb3s5o8.webp"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -2603,7 +2590,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": true,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912931/alamoudi_properties/shorouk/S82/zwcrdnmvwurd9r0ulg3e.webp"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -2685,7 +2671,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912930/alamoudi_properties/shorouk/S88/wnyum8uv6tcjxpfuteal.webp"
     ],
     "videoUrl": "https://t.me/alamoudirealestate/113",
     "externalUrl": "",
@@ -2767,7 +2752,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912930/alamoudi_properties/shorouk/S90/ejyakwkdukc6q1cxresz.webp"
     ],
     "videoUrl": "https://t.me/alamoudirealestate/119",
     "externalUrl": "",
@@ -2809,7 +2793,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "direct",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789912928/alamoudi_properties/shorouk/S91/iuorg6xo8rmvnjpafykj.webp"
     ],
     "videoUrl": "https://t.me/alamoudirealestate/131",
     "externalUrl": "",
@@ -2891,15 +2874,6 @@ export const SEED_PROPERTIES: Property[] = [
     "featured": false,
     "agentType": "broker",
     "images": [
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902842/alamoudi_properties/shorouk/S93/ucqgarlysfjn2ylofari.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902843/alamoudi_properties/shorouk/S93/v7pmzesdoa0mn3c76k4d.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902844/alamoudi_properties/shorouk/S93/o5dsvdufrytw8ldethgu.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902845/alamoudi_properties/shorouk/S93/oyoxqfrw33obrddnewpm.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902845/alamoudi_properties/shorouk/S93/jzvw0ajkowv1vwhzz13d.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902846/alamoudi_properties/shorouk/S93/qoo7agjl9gqdukzivqhd.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902846/alamoudi_properties/shorouk/S93/mpq1r12zquyjcc52lht3.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902847/alamoudi_properties/shorouk/S93/j0ihyoazqhzauhh8xstp.jpg",
-      "https://res.cloudinary.com/vis04evc/image/upload/v1789902848/alamoudi_properties/shorouk/S93/hed9occ1m0oekwhgnkbb.jpg"
     ],
     "videoUrl": "",
     "externalUrl": "",
@@ -3001,3 +2975,8 @@ export const SEED_PROPERTIES: Property[] = [
     "updatedAt": "2026-09-20T13:44:16.876+00:00"
   }
 ];
+
+export const SEED_PROPERTIES: Property[] = RAW_SEED_PROPERTIES.map((property) => ({
+  ...property,
+  images: (property.images ?? []).filter((url) => !url.includes("cloudinary.com")),
+}));

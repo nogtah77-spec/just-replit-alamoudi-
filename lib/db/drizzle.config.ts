@@ -8,19 +8,29 @@ function buildSupabaseUrl(): string | undefined {
   const ref = supaUrl.match(/https?:\/\/([^.]+)\.supabase\.co/)?.[1];
   if (!ref) return undefined;
   const encodedPw = encodeURIComponent(pw);
-  // Session pooler port 5432 for drizzle-kit (needs a persistent connection).
-  return `postgresql://postgres.${ref}:${encodedPw}@aws-0-eu-west-1.pooler.supabase.com:5432/postgres`;
+  const suppliedUrl = process.env.SUPABASE_DATABASE_URL;
+  if (suppliedUrl) {
+    try {
+      const parsed = new URL(suppliedUrl);
+      parsed.username = `postgres.${ref}`;
+      parsed.password = pw;
+      parsed.pathname = parsed.pathname || "/postgres";
+      return parsed.toString();
+    } catch {
+      // Fall through to the direct Supabase host.
+    }
+  }
+  return `postgresql://postgres:${encodedPw}@db.${ref}.supabase.co:5432/postgres`;
 }
 
 const dbUrl =
-  process.env.DATABASE_URL ??
-  process.env.SUPABASE_PRODUCTION_DB_URL ??
+  buildSupabaseUrl() ??
   process.env.SUPABASE_DATABASE_URL ??
-  buildSupabaseUrl();
+  process.env.DATABASE_URL;
 
 if (!dbUrl) {
   throw new Error(
-    "No database URL found. Set DATABASE_URL, SUPABASE_PRODUCTION_DB_URL, SUPABASE_DATABASE_URL, or SUPABASE_DB_PASSWORD + SUPABASE_URL.",
+    "No database URL found. Set SUPABASE_DATABASE_URL or SUPABASE_DB_PASSWORD + SUPABASE_URL.",
   );
 }
 
