@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "العمودي للتسويق العقاري"
+description = "A real estate marketing platform for Alamoudi Properties. Lets agents manage property listings, track inquiries, and showcase properties to potential buyers. Includes an admin dashboard, AI-powered property assistant, and a public-facing property browser."
+version = "1.0.0"
+id = "artifacts/alamoudi"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20113
+
+[services.development]
+run = "pnpm --filter @workspace/alamoudi run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/alamoudi", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/alamoudi/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20113"
+BASE_PATH = "/"

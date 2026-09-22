@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>الرئيسية | العمودي للتسويق العقاري</title>
+    <meta name="description" content="منصة العمودي للتسويق العقاري — أفضل الفرص والوحدات العقارية الفاخرة في القاهرة الجديدة والمدن الراقية." />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / WhatsApp / Facebook -->
+    <meta property="og:site_name" content="العمودي للتسويق العقاري" />
+    <meta property="og:locale" content="ar_AR" />
+    <meta property="og:title" content="العمودي للتسويق العقاري — منصة العقارات الفاخرة" />
+    <meta property="og:description" content="منصة العمودي للتسويق العقاري — أفضل الفرص والوحدات العقارية الفاخرة في القاهرة الجديدة والمدن الراقية." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alamoudi-real-estate.vercel.app/" />
+    <meta property="og:image" content="https://alamoudi-real-estate.vercel.app/alamoudi-luxury-share-v2.jpg" />
+    <meta property="og:image:secure_url" content="https://alamoudi-real-estate.vercel.app/alamoudi-luxury-share-v2.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
+    <meta property="og:image:alt" content="العمودي للتسويق العقاري" />
+
+    <!-- Schema.org for Google & WhatsApp -->
+    <meta itemprop="name" content="العمودي للتسويق العقاري" />
+    <meta itemprop="description" content="منصة العقارات الفاخرة — اكتشف أرقى الوحدات والفرص الاستثمارية الحصرية" />
+    <meta itemprop="image" content="https://alamoudi-real-estate.vercel.app/alamoudi-luxury-share-v2.jpg" />
+    <link rel="image_src" href="https://alamoudi-real-estate.vercel.app/alamoudi-luxury-share-v2.jpg" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="العمودي للتسويق العقاري — منصة العقارات الفاخرة" />
+    <meta name="twitter:description" content="منصة العقارات الفاخرة — اكتشف أرقى الوحدات والفرص الاستثمارية الحصرية" />
+    <meta name="twitter:image" content="https://alamoudi-real-estate.vercel.app/alamoudi-luxury-share-v2.jpg" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#10202D" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="العمودي عقارات" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Instant Theme Engine Initializer (Anti-flash & Status Bar Sync) -->
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem("alm_active_theme") || "classic";
+          document.documentElement.setAttribute("data-theme", t);
+          var tc = t === "charcoal" ? "#181C20" : "#10202D";
+          var metaThemeColor = document.querySelector('meta[name="theme-color"]');
+          if (metaThemeColor) {
+            metaThemeColor.setAttribute("content", tc);
+          }
+          var msNav = document.querySelector('meta[name="msapplication-navbutton-color"]');
+          if (msNav) {
+            msNav.setAttribute("content", tc);
+          }
+        } catch (e) {}
+        // Instant Auto-Heal: Purge legacy static caches to prevent any stale chunk errors on mobile/WhatsApp
+        try {
+          if ("caches" in window) {
+            caches.keys().then(function(keys) {
+              for (var i = 0; i < keys.length; i++) {
+                if (keys[i].indexOf("static") !== -1 || keys[i].indexOf("data-v") !== -1) {
+                  caches.delete(keys[i]);
+                }
+              }
+            });
+          }
+          if ((window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") && "serviceWorker" in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              regs.forEach(function(r) { r.unregister(); });
+            });
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
