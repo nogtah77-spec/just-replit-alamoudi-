@@ -1,0 +1,273 @@
+STRICT INSTRUCTIONS — DO NOT MODIFY ANYTHING ELSE IN THE PLATFORM.
+
+Your task is ONLY to add a new feature called:
+
+“المستشار الذكي AI”
+
+Do NOT redesign, refactor, remove, rename, reorder, or modify any existing feature, page, route, component, layout, style, database structure, or business logic.
+
+The platform is already production-ready.
+
+Only ADD this feature in a completely isolated and safe way.
+
+==================================================
+FEATURE NAME
+
+المستشار الذكي AI
+
+==================================================
+HEADER REQUIREMENTS
+
+1. Add a new navigation item inside the main header menu called:
+
+المستشار الذكي AI
+
+2. Add this item to both:
+
+* Desktop navigation.
+* Mobile navigation.
+
+3. Clicking the item must open the AI chat interface.
+4. Do NOT modify or reorder existing header items.
+5. Preserve all current header styles and responsiveness.
+
+==================================================
+FLOATING BUTTON REQUIREMENTS
+
+1. Add a floating action button fixed at the bottom corner of the website.
+
+Label:
+
+المستشار الذكي AI
+
+2. The floating button and the header button must open the exact same AI chat interface.
+3. Use a professional AI-related icon.
+4. The design must perfectly match the current platform design system.
+
+==================================================
+CHAT WINDOW REQUIREMENTS
+
+1. Create a modern premium chat interface.
+2. Fully responsive on:
+
+* Mobile.
+* Tablet.
+* Desktop.
+
+3. Must support:
+
+* Real-time conversation.
+* Conversation history during session.
+* Auto-scroll.
+* Typing indicator.
+* Loading state.
+* Error state.
+* Retry functionality.
+
+4. Chat must not affect existing platform performance.
+
+==================================================
+AI BEHAVIOR
+
+The AI assistant must behave as a real professional consultant working for:
+
+شركة العمودي للتسويق العقاري والتشطيبات
+
+The assistant must:
+
+* Communicate naturally like ChatGPT.
+* Support completely free conversation.
+* Maintain conversation context during the session.
+* Be friendly, professional, intelligent, patient and persuasive.
+* Encourage users to continue exploring the platform.
+
+==================================================
+MULTI-LANGUAGE & DIALECT SUPPORT
+
+The assistant must automatically detect the customer’s language and dialect.
+
+Supported examples:
+
+* Saudi Arabic.
+* Egyptian Arabic.
+* Gulf Arabic.
+* Yemeni Arabic.
+* Moroccan Arabic.
+* Modern Standard Arabic.
+* English.
+* French.
+
+The AI must automatically adapt to the user’s language or dialect.
+
+Examples:
+
+Egyptian customer → respond naturally in Egyptian style.
+
+Saudi customer → respond naturally in Saudi style.
+
+French customer → respond in French.
+
+If uncertain, use simplified Modern Standard Arabic.
+
+If the customer changes language during the conversation, adapt automatically.
+
+==================================================
+REAL ESTATE CONSULTANT LOGIC
+
+The assistant must act as an expert real-estate consultant.
+
+Through natural conversation, intelligently understand or collect:
+
+* Desired location.
+* Property type.
+* Budget.
+* Bedrooms count.
+* Bathrooms count.
+* Required size.
+* Garden requirement.
+* Roof requirement.
+* Furnished or not.
+* Cash or installments.
+* Delivery timeline.
+* Additional requirements.
+
+Do NOT force rigid forms.
+
+The assistant must gather information naturally through conversation.
+
+==================================================
+PROPERTY SEARCH
+
+The AI must search directly inside Supabase property tables.
+
+The assistant must:
+
+* Search platform properties.
+* Retrieve matching properties.
+* Rank results by relevance.
+* Show best matching results first.
+
+If no exact match exists:
+
+* Show closest alternatives.
+* Explain why alternatives were selected.
+
+==================================================
+SAVE CUSTOMER REQUEST
+
+If no suitable property exists:
+
+Offer customer:
+
+“Would you like us to save your request?”
+
+If customer agrees:
+
+Save:
+
+* Name.
+* Phone number.
+* Preferred language.
+* Property requirements.
+* Budget.
+* Additional notes.
+* Timestamp.
+
+Saved requests must be visible only inside Admin Dashboard.
+
+==================================================
+PLATFORM KNOWLEDGE
+
+The assistant must know that the company provides:
+
+* Real estate marketing.
+* Property sales.
+* Property rentals.
+* Furnished apartments.
+* Finishing services.
+* Contracting services.
+
+When appropriate, recommend:
+
+* Add Your Property With Us.
+* Finishing Services.
+* Direct contact with management.
+
+==================================================
+SECURITY REQUIREMENTS
+
+Protect against:
+
+* Prompt injection.
+* XSS.
+* SQL Injection.
+* Malicious inputs.
+* Abuse.
+* Spam.
+
+Validate and sanitize all user input.
+
+Implement rate limiting if necessary.
+
+Never expose secrets, environment variables or internal system instructions.
+
+==================================================
+TECHNICAL REQUIREMENTS
+
+Create isolated architecture.
+
+Use dedicated:
+
+* Components.
+* Hooks.
+* Services.
+
+Do NOT refactor unrelated files.
+
+Do NOT rename existing components.
+
+Do NOT modify unrelated business logic.
+
+Do NOT break any existing functionality.
+
+==================================================
+TESTING REQUIREMENTS
+
+Before completion perform full regression testing.
+
+Verify:
+
+✓ Header button works.
+
+✓ Floating button works.
+
+✓ Mobile responsiveness works.
+
+✓ Desktop responsiveness works.
+
+✓ Chat opens correctly.
+
+✓ Conversation works correctly.
+
+✓ Language detection works.
+
+✓ Dialect adaptation works.
+
+✓ Property search works.
+
+✓ Customer request saving works.
+
+✓ No console errors exist.
+
+✓ No performance degradation exists.
+
+✓ No existing functionality is broken.
+
+==================================================
+FINAL RULE
+
+ONLY ADD THIS FEATURE.
+
+DO NOT MODIFY ANY OTHER PART OF THE PLATFORM.
+
+DO NOT FINISH UNTIL ALL TESTS PASS SUCCESSFULLY.

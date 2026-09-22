@@ -1,0 +1,228 @@
+Perform a complete UI/UX refinement, functionality audit, and production-ready polish across the entire real estate platform.
+
+THIS IS A HIGH PRIORITY TASK.
+
+Do not stop until every requirement below is fully implemented, tested, and verified manually.
+
+═══════════════════════════════════════
+BRANDING CHANGES (CRITICAL)
+═══════════════════════════════════════
+
+1. Remove the uploaded logo completely from the entire platform.
+
+Remove it from:
+
+* Header
+* Footer
+* Login page
+* Dashboard
+* Mobile menu
+* Any cards or sections
+* Any hidden or unused components
+
+The logo must not appear anywhere.
+
+2. Replace the logo everywhere with the company name:
+
+العمودي للتسويق العقاري
+
+Display it as a premium text-based brand identity.
+
+Requirements:
+
+* Elegant Arabic typography.
+* Luxury appearance.
+* Excellent spacing and alignment.
+* Responsive on all devices.
+* Professional font sizing and weight.
+
+3. Header layout on desktop:
+
+Far Right:
+العمودي للتسويق العقاري
+
+Center:
+الرئيسية | المفضلة | المقارنة
+
+Far Left:
+تسجيل الدخول | لوحة التحكم
+
+The header must be perfectly balanced and aligned.
+
+4. Footer:
+
+* Remove the logo completely.
+* Replace it with:
+    العمودي للتسويق العقاري
+* Display it professionally.
+* All footer elements must be centered and balanced.
+
+═══════════════════════════════════════
+HERO SECTION
+═══════════════════════════════════════
+
+The hero section must be perfectly centered.
+
+Main heading:
+
+اكتشف الفخامة في كل تفاصيل منزلك القادم
+
+Requirements:
+
+* Heading centered.
+* Subtitle centered.
+* Search box centered.
+* Equal spacing between all elements.
+* Perfect visual balance.
+
+The current hero content is oversized.
+
+Reduce and standardize sizes so the section feels premium and elegant.
+
+═══════════════════════════════════════
+SEARCH EXPERIENCE
+═══════════════════════════════════════
+
+Redesign homepage filters into two rows.
+
+First Row:
+بيع | إيجار | شقق مفروشة
+
+Second Row:
+سكني | إداري | طبي | تجاري
+
+Requirements:
+
+* Perfect horizontal centering.
+* Equal spacing.
+* Professional responsive layout.
+* No overlapping.
+* Premium appearance.
+
+The search box itself must remain centered.
+
+All dropdowns must load all available data dynamically.
+
+Region dropdown must display all available regions.
+
+Property type dropdown must display all available property types.
+
+═══════════════════════════════════════
+TYPOGRAPHY SYSTEM
+═══════════════════════════════════════
+
+Create a complete typography system for the entire platform.
+
+Requirements:
+
+* Consistent font sizes.
+* Consistent line heights.
+* Consistent font weights.
+* Clear hierarchy.
+
+No text should appear:
+
+* Too large.
+* Too small.
+* Visually inconsistent.
+
+Review every page and standardize typography.
+
+═══════════════════════════════════════
+PROPERTY CARDS
+═══════════════════════════════════════
+
+All property cards must:
+
+* Be perfectly centered.
+* Use a professional responsive grid.
+* Maintain alignment regardless of item count.
+* Have equal heights.
+* Have consistent spacing.
+
+Apply this to:
+
+* Featured Properties.
+* Latest Properties.
+* Favorites.
+* Comparison pages.
+* Dashboard property lists.
+
+═══════════════════════════════════════
+SECTION ALIGNMENT
+═══════════════════════════════════════
+
+Review and fix alignment for:
+
+* Hero section
+* Search section
+* Featured Properties
+* Latest Properties
+* Why Choose Us
+* Contact section
+* Footer
+* Dashboard pages
+* Forms
+* Tables
+* Empty states
+* Authentication pages
+
+Everything must be visually centered and balanced.
+
+═══════════════════════════════════════
+GLOBAL CONTAINER SYSTEM
+═══════════════════════════════════════
+
+Use one consistent max-width container across the entire website.
+
+Requirements:
+
+* Equal left and right margins.
+* No sections extending outside the container.
+* No misaligned elements.
+
+═══════════════════════════════════════
+RESPONSIVENESS
+═══════════════════════════════════════
+
+Ensure perfect behavior on:
+
+* Mobile
+* Tablet
+* Desktop
+
+Requirements:
+
+* No broken layouts.
+* No overlapping elements.
+* No horizontal scrolling.
+* No overflowing text.
+
+═══════════════════════════════════════
+QUALITY ASSURANCE (MANDATORY)
+═══════════════════════════════════════
+
+Perform a complete audit of the platform and fix:
+
+* Alignment issues.
+* Inconsistent spacing.
+* Inconsistent typography.
+* Broken buttons.
+* Incorrect positioning.
+* Visual inconsistencies.
+* Any UI/UX defects.
+
+Before finishing:
+
+1. Manually inspect every page in desktop view.
+2. Manually inspect every page in tablet view.
+3. Manually inspect every page in mobile view.
+4. Verify every button works correctly.
+5. Verify every form works correctly.
+6. Verify all navigation works correctly.
+
+Do not assume anything is correct without testing and verification.
+
+Do not finish until the entire platform feels polished, luxurious, premium, and production-ready.
+
+The final result must look like a real estate platform built by a senior professional UI/UX team.
